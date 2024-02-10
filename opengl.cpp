@@ -434,13 +434,14 @@ glutMainLoop();
 }
 int main ( int argc, char *argv[] ) {
 std::cout << "Starting program\n";
+// activate any of these
 // glfw_open_window();
 // glut_open_window(argc, argv);
 // glut_sphere(argc, argv);
 // glut_sphere_cool(argc, argv);
 // glut_many_solids(argc, argv);
-rotating_cube(argc, argv);
-// rotate_tetra(argc, argv);
+// rotating_cube(argc, argv);
+rotate_tetra(argc, argv);
 // glut_rot_teapot(argc, argv);
 std::cout << "...program completed\n";
 return 0;
